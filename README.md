@@ -1,6 +1,6 @@
 # GI E-Learning Platform
 
-Une application web e-learning destinée aux étudiants de la filière Génie Informatique (GI), développée en Laravel. Elle permet la gestion des cours (PDF) et la réalisation de QCM interactifs, avec des interfaces adaptées pour les étudiants, enseignants et administrateurs.
+Une application web e-learning destinée aux étudiants, développée en Laravel. Elle permet la gestion des cours (PDF) et la réalisation de QCM interactifs, avec des interfaces adaptées pour les étudiants, enseignants et administrateurs.
 
 ## 📚 Fonctionnalités principales
 
