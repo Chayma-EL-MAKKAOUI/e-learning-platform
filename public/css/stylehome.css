@@ -1,0 +1,82 @@
+/**variables */
+:root {
+  --bg-color: rgb(46, 2, 73);
+  --bg-content: rgb(138, 57, 225);
+  --bg-content-shadow: rgba(194, 194, 194, 0.644);
+  --bg-content-min: #9C51E0;
+  --text-color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(138, 57, 225, 0.2);
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(138, 57, 225, 0.6);
+  cursor: pointer;
+}
+
+html, body {
+  height:100%;
+}
+body {
+margin: 0;
+}
+
+.container-fluid {
+  height: 100%;
+}
+
+.row {
+height: 100%; 
+}
+
+
+.col-md-6 {
+float:left;
+width: 50%;
+min-height: 100%;
+}
+
+.left {
+background-color: #dbdbdb;
+}
+
+.right {
+background-color: var(--bg-content);
+}
+.logo{
+margin-top: -20px;
+}
+.img{
+  margin-top: 258px;
+}
+.img1{
+  margin-top: 110px;
+}
+a:link {
+  text-decoration: none;
+}
+
+.h2{
+  color: #dbdbdb;
+ text-align: center;
+ top: 20px;
+ font-size:x-large;
+}
+.h1{
+  color: var(--bg-content);
+ text-align: center;
+ top: 20px;
+}
